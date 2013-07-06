@@ -1,6 +1,6 @@
 <?php
 
-require("../phpMQTT.php");
+require("phpMQTT.php");
 
   
 $mqtt = new phpMQTT("localhost", 1883, "MQTT Publisher Client");
